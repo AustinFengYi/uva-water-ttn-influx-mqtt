@@ -34,4 +34,5 @@ python3 jon_write_water_ttn_influx.py
 2. With the help of script [water_payload_adaptation.py](water_payload_adaptation.py) and [write_to_influx.py
 ](https://github.com/AustinFengYi/uva-water-ttn-influx-mqtt/blob/main/python/service/write_to_influx.py) in directory [service](https://github.com/AustinFengYi/uva-water-ttn-influx-mqtt/tree/main/python/service), we'are getting water sensor data into linklab.influxDB and visualize it through the linklab.Grafana dashboard. 
 
-![截圖 2023-12-01 上午11.51.41](https://hackmd.io/_uploads/Syhdy5wS6.png)
+![截圖 2023-12-01 上午11 51 41](https://github.com/AustinFengYi/uva-water-ttn-influx-mqtt/assets/22648364/ea6e4289-6264-487d-bd38-bae46db7b734)
+
