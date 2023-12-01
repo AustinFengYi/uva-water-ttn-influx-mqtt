@@ -1,0 +1,128 @@
+{
+    "name": "as.up.data.forward",
+    "time": "2023-11-10T19:38:59.271438402Z",
+    "identifiers": [
+        {
+            "device_ids": {
+                "device_id": "eui-70b3d57ba0001551",
+                "application_ids": {
+                    "application_id": "dl-pr-26"
+                },
+                "dev_eui": "70B3D57BA0001551",
+                "join_eui": "70B3D57ED00006B2",
+                "dev_addr": "260CED73"
+            }
+        }
+    ],
+    "data": {
+        "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+        "end_device_ids": {
+            "device_id": "eui-70b3d57ba0001551",
+            "application_ids": {
+                "application_id": "dl-pr-26"
+            },
+            "dev_eui": "70B3D57BA0001551",
+            "join_eui": "70B3D57ED00006B2",
+            "dev_addr": "260CED73"
+        },
+        "correlation_ids": [
+            "gs:uplink:01HEXBXA3JX5HPQ1YS66BRZ06D"
+        ],
+        "received_at": "2023-11-10T19:38:59.264527462Z",
+        "uplink_message": {
+            "session_key_id": "AYu3K0WugTRJb9GU5sjTvQ==",
+            "f_port": 1,
+            "f_cnt": 100,
+            "frm_payload": "AhVRAANHI1A9CpM=",
+            "decoded_payload": {
+                "battery_voltage": {
+                    "displayName": "Battery voltage",
+                    "unit": "V",
+                    "value": 2.707
+                },
+                "device_id": 5457,
+                "pressure": {
+                    "displayName": "Pressure",
+                    "unit": "bar",
+                    "value": 0.055755615234375
+                },
+                "protocol_version": 2,
+                "temperature": {
+                    "displayName": "Temperature",
+                    "unit": "°C",
+                    "value": 12.990625000000001
+                }
+            },
+            "rx_metadata": [
+                {
+                    "gateway_ids": {
+                        "gateway_id": "eui-9cd47dfffe9e0450",
+                        "eui": "9CD47DFFFE9E0450"
+                    },
+                    "time": "2023-11-10T19:38:58.935198068Z",
+                    "timestamp": 3844970084,
+                    "rssi": -91,
+                    "channel_rssi": -91,
+                    "snr": 12,
+                    "location": {
+                        "latitude": 38.0316900740536,
+                        "longitude": -78.5109140863356,
+                        "altitude": 180,
+                        "source": "SOURCE_REGISTRY"
+                    },
+                    "uplink_token": "CiIKIAoUZXVpLTljZDQ3ZGZmZmU5ZTA0NTASCJzUff/+ngRQEOSstqkOGgsI0426qgYQlvLRGyCg7c3Q8+AF",
+                    "received_at": "2023-11-10T19:38:59.009901525Z"
+                }
+            ],
+            "settings": {
+                "data_rate": {
+                    "lora": {
+                        "bandwidth": 125000,
+                        "spreading_factor": 7,
+                        "coding_rate": "4/5"
+                    }
+                },
+                "frequency": "905300000",
+                "timestamp": 3844970084,
+                "time": "2023-11-10T19:38:58.935198068Z"
+            },
+            "received_at": "2023-11-10T19:38:59.059387847Z",
+            "consumed_airtime": "0.061696s",
+            "locations": {
+                "user": {
+                    "latitude": 38.036852334987,
+                    "longitude": -78.5124491024889,
+                    "altitude": 150,
+                    "source": "SOURCE_REGISTRY"
+                }
+            },
+            "version_ids": {
+                "brand_id": "decentlab",
+                "model_id": "dl-pr26",
+                "hardware_version": "1",
+                "firmware_version": "1.5.7",
+                "band_id": "US_902_928"
+            },
+            "network_ids": {
+                "net_id": "000013",
+                "ns_id": "EC656E0000000182",
+                "tenant_id": "ttn",
+                "cluster_id": "nam1",
+                "cluster_address": "nam1.cloud.thethings.network"
+            }
+        }
+    },
+    "correlation_ids": [
+        "gs:uplink:01HEXBXA3JX5HPQ1YS66BRZ06D"
+    ],
+    "origin": "ip-10-101-15-28.us-west-1.compute.internal",
+    "context": {
+        "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+        "rights": [
+            "RIGHT_APPLICATION_TRAFFIC_READ"
+        ]
+    },
+    "unique_id": "01HEXBXAA7F6AX73RZ7AAGDT46"
+}

@@ -1,0 +1,3 @@
+Versioning - 
+python==3.8.5
+influxDB==1.8.4

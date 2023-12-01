@@ -1,0 +1,98 @@
+{
+    "name": "as.up.data.forward",
+    "time": "2023-11-13T18:39:48.584914341Z",
+    "identifiers": [
+        {
+            "device_ids": {
+                "device_id": "eui-24e124136d324601",
+                "application_ids": {
+                    "application_id": "uva-engineers-way-sensors"
+                },
+                "dev_eui": "24E124136D324601",
+                "join_eui": "24E124C0002A0001",
+                "dev_addr": "260CFDA9"
+            }
+        }
+    ],
+    "data": {
+        "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+        "end_device_ids": {
+            "device_id": "eui-24e124136d324601",
+            "application_ids": {
+                "application_id": "uva-engineers-way-sensors"
+            },
+            "dev_eui": "24E124136D324601",
+            "join_eui": "24E124C0002A0001",
+            "dev_addr": "260CFDA9"
+        },
+        "correlation_ids": [
+            "gs:uplink:01HF4ZQ3MD04PHQPHE7MSXCFKV"
+        ],
+        "received_at": "2023-11-13T18:39:48.576964920Z",
+        "uplink_message": {
+            "session_key_id": "AYq++CF817xjkzW5fSOLkg==",
+            "f_port": 85,
+            "f_cnt": 14647,
+            "frm_payload": "A2eYAARoVA==",
+            "decoded_payload": {
+                "Humidity_%": 42,
+                "Temperature_°C": 15.200000000000001
+            },
+            "rx_metadata": [
+                {
+                    "gateway_ids": {
+                        "gateway_id": "eui-9cd47dfffe9e0450",
+                        "eui": "9CD47DFFFE9E0450"
+                    },
+                    "time": "2023-11-13T18:39:48.089602947Z",
+                    "timestamp": 2968041299,
+                    "rssi": -86,
+                    "channel_rssi": -86,
+                    "snr": 11,
+                    "location": {
+                        "latitude": 38.0316900740536,
+                        "longitude": -78.5109140863356,
+                        "altitude": 180,
+                        "source": "SOURCE_REGISTRY"
+                    },
+                    "uplink_token": "CiIKIAoUZXVpLTljZDQ3ZGZmZmU5ZTA0NTASCJzUff/+ngRQENPuoocLGgwI9NrJqgYQkIyprgEguLiw6LDzIA==",
+                    "received_at": "2023-11-13T18:39:48.316159276Z"
+                }
+            ],
+            "settings": {
+                "data_rate": {
+                    "lora": {
+                        "bandwidth": 125000,
+                        "spreading_factor": 7,
+                        "coding_rate": "4/5"
+                    }
+                },
+                "frequency": "904300000",
+                "timestamp": 2968041299,
+                "time": "2023-11-13T18:39:48.089602947Z"
+            },
+            "received_at": "2023-11-13T18:39:48.366401473Z",
+            "consumed_airtime": "0.056576s",
+            "network_ids": {
+                "net_id": "000013",
+                "ns_id": "EC656E0000000182",
+                "tenant_id": "ttn",
+                "cluster_id": "nam1",
+                "cluster_address": "nam1.cloud.thethings.network"
+            }
+        }
+    },
+    "correlation_ids": [
+        "gs:uplink:01HF4ZQ3MD04PHQPHE7MSXCFKV"
+    ],
+    "origin": "ip-10-101-15-28.us-west-1.compute.internal",
+    "context": {
+        "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+        "rights": [
+            "RIGHT_APPLICATION_TRAFFIC_READ"
+        ]
+    },
+    "unique_id": "01HF4ZQ3V8JYC2315RYBRXPA9F"
+}

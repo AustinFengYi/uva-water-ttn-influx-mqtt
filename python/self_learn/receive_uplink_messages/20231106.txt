@@ -1,0 +1,33 @@
+received_at	application_id	device_id	f_port	f_cnt	rssi	snr	data_rate_index	consumed_airtime	frm_payload	decoded_payload
+2023-11-06T15:15:52.022910967Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13492	-98	1	-	0.056576s	A2e4AARoSw==	{'Humidity_%': 37.5, 'Temperature_°C': 18.400000000000002}
+2023-11-06T15:20:52.072212864Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13493	-104	8	-	0.056576s	A2e5AARoSw==	{'Humidity_%': 37.5, 'Temperature_°C': 18.5}
+2023-11-06T15:25:52.034063413Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13494	-99	15	-	0.056576s	A2e5AARoSw==	{'Humidity_%': 37.5, 'Temperature_°C': 18.5}
+2023-11-06T15:30:52.014442588Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13495	-100	12	-	0.056576s	A2e7AARoSw==	{'Humidity_%': 37.5, 'Temperature_°C': 18.7}
+2023-11-06T15:35:52.041303Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13496	-91	-6	-	0.056576s	A2e4AARoSw==	{'Humidity_%': 37.5, 'Temperature_°C': 18.400000000000002}
+2023-11-06T15:40:52.046536622Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13497	-103	12	-	0.061696s	AXVkA2e3AARoSw==	-
+2023-11-06T15:45:52.029365543Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13498	-102	3	-	0.056576s	A2e4AARoSw==	{'Humidity_%': 37.5, 'Temperature_°C': 18.400000000000002}
+2023-11-06T15:50:52.006167209Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13499	-97	15	-	0.056576s	A2e5AARoTA==	{'Humidity_%': 38, 'Temperature_°C': 18.5}
+2023-11-06T15:55:52.029242453Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13500	-101	11	-	0.056576s	A2e5AARoTA==	{'Humidity_%': 38, 'Temperature_°C': 18.5}
+2023-11-06T16:00:52.036260323Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13501	-101	12	-	0.056576s	A2e5AARoTA==	{'Humidity_%': 38, 'Temperature_°C': 18.5}
+2023-11-06T16:05:52.066355997Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13502	-102	11	-	0.056576s	A2e5AARoTA==	{'Humidity_%': 38, 'Temperature_°C': 18.5}
+2023-11-06T16:10:51.987605882Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13503	-102	12	-	0.056576s	A2e5AARoTA==	{'Humidity_%': 38, 'Temperature_°C': 18.5}
+2023-11-06T16:20:52.015236542Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13505	-98	15	-	0.056576s	A2e4AARoTQ==	{'Humidity_%': 38.5, 'Temperature_°C': 18.400000000000002}
+2023-11-06T16:25:51.990619651Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13506	-97	13	-	0.056576s	A2e4AARoTQ==	{'Humidity_%': 38.5, 'Temperature_°C': 18.400000000000002}
+2023-11-06T16:30:51.957612303Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13507	-98	13	-	0.056576s	A2e4AARoTQ==	{'Humidity_%': 38.5, 'Temperature_°C': 18.400000000000002}
+2023-11-06T16:35:52.025836244Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13508	-103	7	-	0.056576s	A2e4AARoTg==	{'Humidity_%': 39, 'Temperature_°C': 18.400000000000002}
+2023-11-06T16:40:51.977728507Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13509	-103	11	-	0.056576s	A2e4AARoTg==	{'Humidity_%': 39, 'Temperature_°C': 18.400000000000002}
+2023-11-06T16:45:51.939580489Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13510	-98	13	-	0.056576s	A2e4AARoTg==	{'Humidity_%': 39, 'Temperature_°C': 18.400000000000002}
+2023-11-06T16:50:51.968591719Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13511	-96	15	-	0.056576s	A2e4AARoTg==	{'Humidity_%': 39, 'Temperature_°C': 18.400000000000002}
+2023-11-06T16:55:51.990401296Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13512	-103	12	-	0.056576s	A2e4AARoTw==	{'Humidity_%': 39.5, 'Temperature_°C': 18.400000000000002}
+2023-11-06T17:00:51.955953683Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13513	-100	11	-	0.056576s	A2e4AARoTg==	{'Humidity_%': 39, 'Temperature_°C': 18.400000000000002}
+2023-11-06T17:05:51.984599536Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13514	-93	12	-	0.056576s	A2e4AARoTg==	{'Humidity_%': 39, 'Temperature_°C': 18.400000000000002}
+2023-11-06T17:10:51.930549748Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13515	-95	6	-	0.056576s	A2e5AARoTw==	{'Humidity_%': 39.5, 'Temperature_°C': 18.5}
+2023-11-06T17:15:51.995975469Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13516	-88	-2	-	0.056576s	A2e4AARoTw==	{'Humidity_%': 39.5, 'Temperature_°C': 18.400000000000002}
+2023-11-06T17:20:51.998422948Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13517	-93	15	-	0.056576s	A2e5AARoTw==	{'Humidity_%': 39.5, 'Temperature_°C': 18.5}
+2023-11-06T17:30:51.996410159Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13519	-95	8	-	0.056576s	A2e5AARoTw==	{'Humidity_%': 39.5, 'Temperature_°C': 18.5}
+2023-11-06T17:35:51.949020984Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13520	-98	12	-	0.056576s	A2e5AARoTw==	{'Humidity_%': 39.5, 'Temperature_°C': 18.5}
+2023-11-06T17:40:51.985074284Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13521	-96	4	-	0.056576s	A2e6AARoTw==	{'Humidity_%': 39.5, 'Temperature_°C': 18.6}
+2023-11-06T17:50:51.902201016Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13523	-93	12	-	0.056576s	A2e6AARoUA==	{'Humidity_%': 40, 'Temperature_°C': 18.6}
+2023-11-06T17:55:51.911418367Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13524	-92	10	-	0.056576s	A2e7AARoUA==	{'Humidity_%': 40, 'Temperature_°C': 18.7}
+2023-11-06T18:00:51.990069367Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13525	-98	14	-	0.056576s	A2e8AARoUA==	{'Humidity_%': 40, 'Temperature_°C': 18.8}
+2023-11-06T18:05:51.959660449Z	uva-engineers-way-sensors	eui-24e124136d321332	85	13526	-100	12	-	0.056576s	A2e9AARoTw==	{'Humidity_%': 39.5, 'Temperature_°C': 18.900000000000002}
