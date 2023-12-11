@@ -1,4 +1,3 @@
-# Necessary packages to import a Brick model 
 import json
 
 def water_format_adaption(parsed_json):
@@ -15,7 +14,9 @@ def water_format_adaption(parsed_json):
         ## unit -> 'water': 'linklab_influx' ##
         'temperature': 'Temperature_°C',
         'battery_voltage': 'voltage_v',
-        'pressure': 'pressure_hPa', # hPa value = bar value x 1000      
+        'pressure': 'pressure_hPa', # hPa value = bar value x 1000   
+        'distance': 'distance_m', # m value = mm value / 1000   
+        'number_of_valid_samples': 'number_int'   
     }
 
     # remove 'device_id' & 'protocol_version' here because it is only used for cloud.thethings.network
@@ -28,6 +29,8 @@ def water_format_adaption(parsed_json):
         decoded_payload[mapping[measurement]] = nested["value"]
         if measurement == "pressure":
             decoded_payload[mapping[measurement]] = nested["value"] * 1000
+        if measurement == "distance":
+            decoded_payload[mapping[measurement]] = nested["value"] / 1000
     # print(decoded_payload)
 
     """Step 3: Ingestion of decoded_payload into message_payload"""
