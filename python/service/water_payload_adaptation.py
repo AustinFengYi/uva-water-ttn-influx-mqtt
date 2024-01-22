@@ -15,7 +15,7 @@ def water_format_adaption(parsed_json):
         'temperature': 'Temperature_°C',
         'battery_voltage': 'voltage_v',
         'pressure': 'pressure_hPa', # hPa value = bar value x 1000   
-        'distance': 'distance_m', # m value = mm value / 1000   
+        'distance': 'altitude_m', # m value = mm value / 1000   
         'number_of_valid_samples': 'number_int'   
     }
 
